@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Financial Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Financial Dashboard</h1>
+    </header>
+
+    <section id="income">
+        <h2>Enter Your Monthly Income</h2>
+        <input type="number" id="income-input" placeholder="₹ Monthly Income" />
+        <button onclick="calculateBudget()">Calculate Budget</button>
+    </section>
+
+    <section id="result" style="display: none;">
+        <h2>Ideal Budget Allocation</h2>
+        <ul>
+            <li>Personal Expenses (10-15%): ₹<span id="personal-expenses"></span></li>
+            <li>Business Investment: ₹<span id="business-investment"></span></li>
+            <li>YouTube Ads Budget (20%): ₹<span id="youtube-ads"></span></li>
+            <li>Long-Term Investment (40%): ₹<span id="long-term"></span></li>
+            <li>Savings & Emergency: ₹<span id="savings"></span></li>
+        </ul>
+    </section>
+
+    <section id="tips">
+        <h2>Ratan Tata's Financial Tips</h2>
+        <ul>
+            <li>Discipline your spending habits.</li>
+            <li>Invest regularly, not randomly.</li>
+            <li>Focus on growth and value, not just price.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Smart Dashboard</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
